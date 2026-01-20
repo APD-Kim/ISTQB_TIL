@@ -1,0 +1,344 @@
+# 1장
+
+1. 테스팅의 기초 (Fundamentals of Testing) 관련 용어
+테스팅 (Testing)
+
+디버깅 (Debugging)
+
+품질 보증 (Quality Assurance, QA)
+
+품질 제어 (Quality Control, QC)
+
+에러 (Error) / 실수 (Mistake)
+
+결함 (Defect) / 버그 (Bug) / 결점 (Fault)
+
+장애 (Failure)
+
+근본 원인 (Root Cause)
+
+확인 (Verification)
+
+타당성 확인 (Validation)
+
+2. 테스팅의 7가지 원칙 (7 Principles of Testing)
+결함 존재의 증명
+
+완전한 테스팅의 불가능성
+
+조기 테스팅 (Early Testing)
+
+결함 집중 (Defect Clustering)
+
+살충제 패러독스 (Pesticide Paradox)
+
+테스팅의 정황 의존성
+
+오류 부재의 궤변 (Absence-of-errors Fallacy)
+
+3. 테스트 프로세스 및 산출물 (Test Process & Work Products) 관련 용어
+테스트 프로세스 (Test Process)
+
+테스트 계획 (Test Planning)
+
+테스트 모니터링 (Test Monitoring)
+
+테스트 제어 (Test Control)
+
+테스트 분석 (Test Analysis)
+
+테스트 설계 (Test Design)
+
+테스트 구현 (Test Implementation)
+
+테스트 실행 (Test Execution)
+
+테스트 완료 (Test Completion)
+
+테스트 베이시스 (Test Basis)
+
+테스트 조건 (Test Condition)
+
+테스트 케이스 (Test Case)
+
+테스트 프로시저 (Test Procedure)
+
+테스트 스크립트 (Test Script)
+
+테스트 웨어 (Testware)
+
+추적성 (Traceability)
+
+
+
+
+
+
+# 2장
+
+1. 소프트웨어 개발 수명 주기(SDLC) 및 테스팅 모델
+소프트웨어 개발 수명 주기 (Software Development Lifecycle, SDLC)
+
+순차적 개발 모델 (Sequential Development Model)
+
+V-모델 (V-model)
+
+반복적-점진적 개발 모델 (Iterative-incremental Development Model)
+
+애자일 소프트웨어 개발 (Agile Software Development)
+
+데브옵스 (DevOps)
+
+시프트 레프트 (Shift-left Approach)
+
+전체 팀 접근법 (Whole-team Approach)
+
+2. 테스트 레벨 (Test Levels)
+컴포넌트 테스팅 (Component Testing) / 단위 테스팅 (Unit Testing)
+
+컴포넌트 통합 테스팅 (Component Integration Testing)
+
+시스템 테스팅 (System Testing)
+
+시스템 통합 테스팅 (System Integration Testing)
+
+인수 테스팅 (Acceptance Testing)
+
+사용자 인수 테스팅 (User Acceptance Testing, UAT)
+
+운영 인수 테스팅 (Operational Acceptance Testing, OAT)
+
+규제 인수 테스팅 (Regulatory Acceptance Testing)
+
+알파 테스팅 (Alpha Testing)
+
+베타 테스팅 (Beta Testing)
+
+3. 테스트 유형 (Test Types)
+기능 테스팅 (Functional Testing)
+
+비기능 테스팅 (Non-functional Testing)
+
+화이트박스 테스팅 (White-box Testing)
+
+블랙박스 테스팅 (Black-box Testing)
+
+확인 테스팅 (Confirmation Testing) / 재테스팅 (Re-testing)
+
+리그레션 테스팅 (Regression Testing) / 회귀 테스팅
+
+4. 유지보수 테스팅 (Maintenance Testing)
+유지보수 테스팅 (Maintenance Testing)
+
+변경 영향 분석 (Impact Analysis)
+
+트리거 조건 (Triggering Condition)
+
+
+# 3장
+
+1. 정적 테스팅의 기초
+정적 테스팅 (Static Testing)
+
+동적 테스팅 (Dynamic Testing)
+
+리뷰 (Review)
+
+정적 분석 (Static Analysis)
+
+2. 리뷰 프로세스 및 역할
+리뷰 프로세스 (Review Process)
+
+준비 (Preparation)
+
+리뷰 회의 (Review Meeting)
+
+리뷰 역할 (Review Roles)
+
+작성자 (Author)
+
+관리자 (Management)
+
+촉진자 (Facilitator) / 중재자 (Moderator)
+
+리뷰 리더 (Review Leader)
+
+검토자 (Reviewer)
+
+기록자 (Scribe) / 서기
+
+3. 리뷰의 유형 (Review Types)
+비공식 리뷰 (Informal Review)
+
+워크스루 (Walkthrough)
+
+기술적 리뷰 (Technical Review)
+
+인스펙션 (Inspection)
+
+4. 리뷰 기법 (Review Techniques)
+체크리스트 기반 리뷰 (Checklist-based Review)
+
+시나리오 기반 리뷰 (Scenario-based Review)
+
+역할 기반 리뷰 (Role-based Review)
+
+관점 기반 리뷰 (Perspective-based Reading)
+
+애드혹 리뷰 (Ad hoc Review)
+
+
+# 4장
+
+1. 테스트 기법의 분류 (Categories of Test Techniques)
+블랙박스 테스트 기법 (Black-box Test Techniques) / 명세 기반 기법
+
+화이트박스 테스트 기법 (White-box Test Techniques) / 구조 기반 기법
+
+경험 기반 테스트 기법 (Experience-based Test Techniques)
+
+2. 블랙박스 테스트 기법 (Black-box Techniques)
+동등 분할 (Equivalence Partitioning)
+
+경계값 분석 (Boundary Value Analysis)
+- 2-point
+- 3-point
+
+결정 테이블 테스팅 (Decision Table Testing)
+
+상태 전이 테스팅 (State Transition Testing)
+
+3. 화이트박스 테스트 기법 (White-box Techniques)
+구문 테스팅 (Statement Testing)
+
+결정 테스팅 (Decision Testing)
+
+구문 커버리지 (Statement Coverage)
+
+결정 커버리지 (Decision Coverage)
+
+4. 경험 기반 테스트 기법 (Experience-based Techniques)
+오류 추정 (Error Guessing)
+
+탐색적 테스팅 (Exploratory Testing)
+
+체크리스트 기반 테스팅 (Checklist-based Testing)
+
+5. 협력적 테스트 접근법 (Collaborative Test Approaches)
+사용자 스토리 (User Story)
+
+인수 기준 (Acceptance Criteria)
+
+인수 테스트 주도 개발 (Acceptance Test-driven Development, ATDD)
+
+행동 주도 개발 (Behavior-driven Development, BDD)
+
+
+# 5장 
+
+1. 테스트 계획 및 우선순위 (Test Planning & Prioritization)
+테스트 계획 (Test Planning)
+
+테스트 전략 (Test Strategy)
+
+테스트 접근 방식 (Test Approach)
+
+테스트 종료 조건 (Exit Criteria)
+
+테스트 시작 조건 (Entry Criteria)
+
+테스트 일정 (Test Schedule)
+
+테스트 우선순위 (Test Prioritization)
+
+2. 테스트 추정 및 메트릭 (Estimation & Metrics)
+테스트 추정 (Test Estimation)
+
+메트릭 기반 기법 (Metrics-based Approach)
+
+전문가 기반 기법 (Expert-based Approach)
+
+테스트 메트릭 (Test Metrics)
+
+테스트 대시보드 (Test Dashboard)
+
+번다운 차트 (Burndown Chart)
+
+3. 리스크 관리 (Risk Management)
+리스크 (Risk)
+
+프로젝트 리스크 (Project Risk)
+
+제품 리스크 (Product Risk)
+
+리스크 수준 (Risk Level)
+
+리스크 가능성 (Risk Likelihood)
+
+리스크 영향도 (Risk Impact)
+
+리스크 기반 테스팅 (Risk-based Testing)
+
+4. 테스트 모니터링, 제어 및 완료
+테스트 모니터링 (Test Monitoring)
+
+테스트 제어 (Test Control)
+
+테스트 요약 보고서 (Test Summary Report)
+
+테스트 완료 (Test Completion)
+
+5. 형상 관리 및 결함 관리
+형상 관리 (Configuration Management)
+
+결함 관리 (Defect Management)
+
+결함 리포트 (Defect Report)
+
+5. 테스트 사분면
+
+6. 테스트 피라미드
+
+
+# 6장
+
+1. 테스트 도구의 분류 및 지원
+테스트 도구 (Test Tool)
+
+테스트 관리 도구 (Test Management Tool)
+
+정적 테스팅 도구 (Static Testing Tool)
+
+테스트 설계 및 구현 도구 (Test Design & Implementation Tool)
+
+테스트 실행 및 로깅 도구 (Test Execution & Logging Tool)
+
+성능 테스팅 및 모니터링 도구 (Performance Testing & Monitoring Tool)
+
+2. 테스트 자동화 (Test Automation)
+테스트 자동화 (Test Automation)
+
+데이터 주도 테스팅 (Data-driven Testing)
+
+키워드 주도 테스팅 (Keyword-driven Testing)
+
+테스트 하네스 (Test Harness)
+
+3. 도구 도입 및 활용
+파일럿 프로젝트 (Pilot Project)
+
+도구 도입 (Tool Selection & Introduction)
+
+투자 대비 효과 (Return on Investment, ROI)
+
+도구의 장점 (Benefits of Tools)
+
+반복성 (Repeatability)
+
+객관성 (Objectivity)
+
+도구의 리스크 (Risks of Tools)
+
+과도한 기대 (Unrealistic Expectations)
+
+유지보수 비용 (Maintenance Costs)
